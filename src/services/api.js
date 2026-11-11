@@ -4,7 +4,7 @@ import { borrarLocal, guardarLocal, leerLocal } from './almacen'
 import * as demo from './apiDemo'
 
 export const CLAVE_SESION = 'parking-tunja:sesion'
-const modoDemo = import.meta.env.VITE_DEMO_MODE === 'true'
+const modoDemo = import.meta.env.MODE === 'demo' || import.meta.env.VITE_DEMO_MODE === 'true'
 
 const leerSesion = () => leerLocal(CLAVE_SESION, null)
 export const haySesionGuardada = () => Boolean(leerSesion()?.acceso)

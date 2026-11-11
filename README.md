@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # pruebas-formula-1-versidad
-=======
-# formula1-university
+
 ## Modo de prueba sin API
 
 Para probar la aplicación sin una clave ni conexión con el servicio externo:
@@ -25,4 +23,3 @@ Cada integrante usa la suya.
 4. En otra terminal: `npm run dev`.
 
 React llama a `/api/...`; la clave solo la conoce `server/index.js`.
->>>>>>> 312a086 (nuevo)
