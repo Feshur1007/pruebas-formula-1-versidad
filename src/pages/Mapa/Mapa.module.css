@@ -1,0 +1,34 @@
+.page {
+  position: relative;
+  height: calc(100vh - 130px);
+  min-height: 480px;
+}
+
+/* Botón y panel flotan sobre el mapa (por encima de los controles de Leaflet). */
+.overlay {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  bottom: 12px;
+  z-index: 1100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.overlay > * {
+  pointer-events: auto;
+}
+
+.filtros {
+  padding: 10px 24px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--azul);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}

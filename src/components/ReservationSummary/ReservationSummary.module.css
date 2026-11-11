@@ -1,0 +1,101 @@
+.container {
+  min-width: 0;
+  display: grid;
+  gap: 16px;
+}
+
+.summary {
+  border: 1px solid var(--gris-borde);
+  border-radius: 8px;
+  padding: 18px;
+  background: white;
+}
+
+.summary h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+.summary dl {
+  margin: 0;
+}
+
+.summary dl div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 13px;
+}
+
+.summary dt {
+  color: #666;
+}
+
+.summary dd {
+  margin: 0;
+  font-weight: 700;
+  text-align: right;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 14px;
+  padding-top: 8px;
+}
+
+.amount {
+  color: var(--azul);
+  font-size: 24px;
+}
+
+.confirmButton,
+.cancelButton {
+  width: 100%;
+  min-height: 44px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.confirmButton {
+  border: 1px solid var(--verde);
+  background: var(--verde);
+  color: white;
+}
+
+.confirmButton:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.cancelButton {
+  border: 2px solid var(--azul);
+  background: white;
+  color: var(--azul);
+}
+
+.validation {
+  margin: 0;
+  color: #b3261e;
+  font-size: 12px;
+}
+
+.success {
+  padding: 10px;
+  border: 1px solid var(--verde-borde);
+  background: var(--verde-claro);
+  color: #205c38;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+a.confirmButton {
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+}

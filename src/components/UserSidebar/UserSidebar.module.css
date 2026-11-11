@@ -1,0 +1,30 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--gris-borde);
+  border-radius: 8px;
+  background: white;
+}
+
+.option,
+.active {
+  padding: 16px 18px;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  background: white;
+  color: #444;
+  font-size: 15px;
+  text-align: left;
+}
+
+.option:hover {
+  background: var(--azul-claro);
+}
+
+.active {
+  border-left: 4px solid var(--azul);
+  background: var(--azul-claro);
+  color: var(--azul);
+  font-weight: 700;
+}

@@ -1,0 +1,27 @@
+.mapa {
+  width: 100%;
+  height: 100%;
+}
+
+.marcador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: var(--verde);
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.activo {
+  background: var(--azul);
+}
+
+.usuario {
+  border: 3px solid white;
+  border-radius: 50%;
+  background: #1a73e8;
+  box-shadow: 0 0 0 4px rgba(26, 115, 232, 0.3);
+}

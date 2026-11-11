@@ -1,0 +1,87 @@
+.container h2 {
+  margin: 0 0 14px;
+  font-size: 18px;
+}
+
+.container form {
+  display: grid;
+  max-width: 420px;
+  gap: 8px;
+}
+
+.container label {
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.container input,
+.container select {
+  width: 100%;
+  min-height: 38px;
+  padding: 6px 8px;
+  border: 1px solid var(--gris-borde);
+  border-radius: 6px;
+  background: white;
+}
+
+.container form button {
+  margin-top: 12px;
+  min-height: 42px;
+  border: 1px solid var(--verde);
+  border-radius: 6px;
+  background: var(--verde);
+  color: white;
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+}
+
+.actions button {
+  padding: 8px 14px;
+  border: 2px solid var(--azul);
+  border-radius: 6px;
+  background: white;
+  color: var(--azul);
+  font-weight: 700;
+}
+
+.actions .delete {
+  border-color: #b3261e;
+  color: #b3261e;
+}
+
+.subtitulo {
+  margin: 26px 0 8px;
+  font-size: 16px;
+}
+
+.exito,
+.error {
+  max-width: 420px;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.exito {
+  background: var(--verde-claro);
+  color: #205c38;
+}
+
+.error {
+  background: #fdecea;
+  color: #b3261e;
+}
+
+.container button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
