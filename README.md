@@ -1,5 +1,22 @@
 # pruebas-formula-1-versidad
 
+## Requisitos
+
+- Node.js 20.19 o superior (recomendado 22.12 o superior).
+- npm, que se instala junto con Node.js.
+
+## Instalación
+
+La primera vez, después de clonar o descargar el proyecto, instala las dependencias:
+
+```bash
+npm install
+```
+
+Eso crea la carpeta `node_modules` (no viene incluida en el repositorio). Si al
+ejecutar un comando aparece `"vite" no se reconoce como un comando interno o
+externo`, significa que faltó ejecutar `npm install` en la carpeta del proyecto.
+
 ## Modo de prueba sin API
 
 Para probar la aplicación sin una clave ni conexión con el servicio externo:
